@@ -4,7 +4,7 @@ import debounce from 'lodash/debounce'
 class StickyHeader {
   constructor() {
     this.siteHeader = document.querySelector('.site-header')
-    this.pageSections = document.querySelectorAll('.page-sections')
+    this.pageSections = document.querySelectorAll('.page-section')
     this.browserHeight = window.innerHeight
     this.previousScrollY = window.scrollY
     this.events()
